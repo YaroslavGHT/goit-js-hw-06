@@ -1,10 +1,5 @@
 const numCategory = document.querySelectorAll('.item');
-let summ = 0;
-numCategory.forEach(function(item){
-    summ +=1;
-});
-
-console.log(`Number of categories: ${summ}`);
+console.log(`Number of categories: ${numCategory.length}`);
 
 const categoriesList = document.querySelectorAll('ul#categories .item');
 
